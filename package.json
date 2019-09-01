@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-starter-rocketseat",
+  "version": "1.0.0",
+  "description": "Exercícios do curso starter NodeJS da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpmarchi/nodejs-starter-rocketseat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpmarchi/nodejs-starter-rocketseat/issues"
+  },
+  "homepage": "https://github.com/gpmarchi/nodejs-starter-rocketseat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}
